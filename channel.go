@@ -22,7 +22,9 @@ func OtherExsample()  {
 	}
 }
 func main() {
-
+	// 获得cpu核心数
+	//num := runtime.NumCPU()
+	//fmt.Println(num)
 
 	fmt.Println(1);
 	chs := make([]chan int, 10)
